@@ -30,7 +30,7 @@ Since the 2023 season, we've switched to a Python autonomous controller and acti
 <details>
   <summary><h2>Autonomous Planning</h2></summary>
 
-Our team has developed a Python path planning interface to help students easily create paths and deploy them to our robot. This tool, called the PathCobbler, creates json syntax files that describe a path for the robot to follow. For the upcoming season, we are planning to create full autonomous json files. These will include the Actions to run through our Action framework so that the PathCobbler interface can be used to create an entire autonomous mode visually.
+Our team has developed a Python path planning interface to help students easily create paths and deploy them to our robot. This tool, called the [PathCobbler](https://github.com/frcteam195/PathCobbler), creates json syntax files that describe a path for the robot to follow. For the upcoming season, we are planning to create full autonomous json files. These will include the Actions to run through our Action framework so that the PathCobbler interface can be used to create an entire autonomous mode visually.
 </details>
 
 <details>
