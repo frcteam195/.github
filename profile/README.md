@@ -5,7 +5,6 @@ CyberKnights Robotics is a FIRST Robotics Competition high school robotics team.
 
 Since the FRC 2022 season, our team has focused on developing a ROS ecosystem. If you are interested in looking at our pre-ROS code, you can checkout our FRC 2021 and earlier repositories.
 
-
 <details>
   <summary><h2>Robot Software Development Timeline</h2></summary>
   
@@ -51,6 +50,7 @@ This will launch a Docker container with the packages necessary to develop for R
 ```
 This sequence of commands will clone all dependencies for the 2023_FRC_Robot project, build all of the projects, and then launch these projects locally for debugging/testing.
 </details>
+
 <!--
 
 **Here are some ideas to get you started:**
