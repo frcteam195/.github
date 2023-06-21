@@ -11,9 +11,9 @@ Since the FRC 2022 season, our team has focused on developing a ROS ecosystem. I
 - 2015 - LabVIEW (RoboRIO)
 - 2017 - C++ (RoboRIO)
 - 2018 - Java (RoboRIO)
-- 2022 - ROS/C++ (Jetson), C++ (RoboRIO)
-- 2023 - ROS/C++/Python (Jetson), C++ (RoboRIO)
-- 2024 - ROS2/C++/Python (Jetson), C++ (RoboRIO)
+- 2022 - ROS/C++ (NVIDIA Jetson), C++ (RoboRIO)
+- 2023 - ROS/C++/Python (NVIDIA Jetson), C++ (RoboRIO)
+- 2024 - ROS2/C++/Python (NVIDIA Jetson), C++ (RoboRIO)
 
 Our current goal is to make ROS accessible to all teams within 5 years. Currently, ROS ecosystems need significant software development capabilities. Our hopes are to simplify this so that a team can get up and running with a basic ROS ecosystem that controls their robot in under a day.
 
@@ -22,6 +22,14 @@ Our current goal is to make ROS accessible to all teams within 5 years. Currentl
 
 Currently our robot autonomous modes use an action-based library to simplify the creation of these autos. Actions can be reused, configured, and adjusted through their parameters and the robot can execute them sequentially or concurrently. This framework concept is based on the autonomous actions from FRC Team 254.
 Since the 2023 season, we've switched to a Python autonomous controller and action system in order to make development easier for students. Because our ecosystem is based on ROS, each robot subsystem is controlled independently, and because of this, we do not take any performance loss from using python instead of a compiled language such as C++ (because the code for the subsystems that are timing critical actually IS C++).
+
+## Autonomous Planning
+
+Our team has developed a Python path planning interface to help students easily create paths and deploy them to our robot. This tool, called the PathCobbler, creates json syntax files that describe a path for the robot to follow. For the upcoming season, we are planning to create full autonomous json files. These will include the Actions to run through our Action framework so that the PathCobbler interface can be used to create an entire autonomous mode visually.
+
+## ROS
+
+Our team is focused on developing a ROS ecosystem robot. ROS stands for Robot Operating System, which is a service/framework that helps different controller processes communicate with each other and also can simplify performing complex functions (such as localization, mapping, etc.). Each subsystem on our robot is controlled by a separate node. These nodes communicate with one another through ROS in order to fully control the robot.
 
 <!--
 
