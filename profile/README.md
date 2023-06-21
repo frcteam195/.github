@@ -6,7 +6,7 @@ CyberKnights Robotics is a FIRST Robotics Competition high school robotics team.
 Since the FRC 2022 season, our team has focused on developing a ROS ecosystem. If you are interested in looking at our pre-ROS code, you can checkout our FRC 2021 and earlier repositories.
 
 
-## Robot Code Software Development Timeline
+## Robot Software Development Timeline
 
 - 2015 - LabVIEW (RoboRIO)
 - 2017 - C++ (RoboRIO)
