@@ -7,7 +7,7 @@ Since the FRC 2022 season, our team has focused on developing a ROS ecosystem. I
 
 
 <details>
-  <summary>Robot Software Development Timeline</summary>
+  <summary><h2>Robot Software Development Timeline</h2></summary>
   
   ## Robot Software Development Timeline
 - [2015 - LabVIEW (RoboRIO)](https://github.com/frcteam195/FRC2015)
