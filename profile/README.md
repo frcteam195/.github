@@ -31,6 +31,18 @@ Our team has developed a Python path planning interface to help students easily 
 
 Our team is focused on developing a ROS ecosystem robot. ROS stands for Robot Operating System, which is a service/framework that helps different controller processes communicate with each other and also can simplify performing complex functions (such as localization, mapping, etc.). Each subsystem on our robot is controlled by a separate node. These nodes communicate with one another through ROS in order to fully control the robot.
 
+If you're interested in getting started with ROS, you can checkout our [ros_dev](https://github.com/frcteam195/ros_dev) and [2023_FRC_Robot](https://github.com/frcteam195/2023_FRC_Robot) repositories on an Ubuntu 22.04 machine. With both of these repositories in the same parent directory, cd into the containing directory and run the following command:
+```
+./ros_dev/run_container.sh
+```
+This will launch a Docker container with the packages necessary to develop for ROS. Now that you're inside the container, run
+```
+./ros_dev/mkrobot.sh clone
+./ros_dev/mkrobot.sh build
+./ros_dev/mkrobot.sh launch
+```
+This sequence of commands will clone all dependencies for the 2023_FRC_Robot project, build all of the projects, and then launch these projects locally for debugging/testing.
+
 <!--
 
 **Here are some ideas to get you started:**
