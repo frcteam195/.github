@@ -31,7 +31,7 @@ Our team has developed a Python path planning interface to help students easily 
 
 ## ROS
 
-Our team is focused on developing a ROS ecosystem robot. ROS stands for Robot Operating System, which is a service/framework that helps different controller processes communicate with each other and also can simplify performing complex functions (such as localization, mapping, etc.). Each subsystem on our robot is controlled by a separate node. These nodes communicate with one another through ROS in order to fully control the robot.
+Our team is focused on developing a ROS ecosystem robot. ROS stands for Robot Operating System, which is a service/framework that helps different controller processes communicate with each other and also can simplify performing complex functions (such as localization, mapping, etc.). Each subsystem on our robot is controlled by a separate node. These nodes communicate with one another through ROS in order to fully control the robot. Part of the simplification of this process is our CKRIOPassthru software. This is RoboRIO firmware that is a companion project that allows the RoboRIO to be controlled from the ROS ecosystem running on the Jetson and has two way communication for things like Joysticks, Motors, etc. When using our ROS projects, the [CKRIOPassthru](https://github.com/frcteam195/CKRIOPassthru) project is required to be running on the RoboRIO.
 
 If you're interested in getting started with ROS, you can checkout our [ros_dev](https://github.com/frcteam195/ros_dev) and [2023_FRC_Robot](https://github.com/frcteam195/2023_FRC_Robot) repositories on an Ubuntu 22.04 machine. With both of these repositories in the same parent directory, cd into the containing directory and run the following command:
 ```
