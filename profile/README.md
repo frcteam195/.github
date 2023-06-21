@@ -6,8 +6,10 @@ CyberKnights Robotics is a FIRST Robotics Competition high school robotics team.
 Since the FRC 2022 season, our team has focused on developing a ROS ecosystem. If you are interested in looking at our pre-ROS code, you can checkout our FRC 2021 and earlier repositories.
 
 
-## Robot Software Development Timeline
-
+<details>
+  <summary>Robot Software Development Timeline</summary>
+  
+  ## Robot Software Development Timeline
 - [2015 - LabVIEW (RoboRIO)](https://github.com/frcteam195/FRC2015)
 - [2016 - LabVIEW (RoboRIO)](https://github.com/frcteam195/FRC2016), [LabVIEW (Kangaroo - Vision Only)](https://github.com/frcteam195/KnightVision-FRC-2016)
 - [2017 - C++ (RoboRIO), C++ (NVIDIA Jetson - Vision Only)](https://github.com/frcteam195/FRC2017)
@@ -18,6 +20,8 @@ Since the FRC 2022 season, our team has focused on developing a ROS ecosystem. I
 - [2024 - ROS2/C++/Python (NVIDIA Jetson), C++ (RoboRIO), Limelight 3 Vision](https://github.com/frcteam195/2024_FRC_Robot)
 
 Our current goal is to make ROS accessible to all teams within 5 years. Currently, ROS ecosystems need significant software development capabilities. Our hopes are to simplify this so that a team can get up and running with a basic ROS ecosystem that controls their robot in under a day.
+
+</details>
 
 
 ## Autonomous Control
