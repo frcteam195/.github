@@ -2,7 +2,7 @@
 
 <br/><br/><br/><br/><br/><br/><br/>
 
-CyberKnights Robotics is a FIRST Robotics Competition high school robotics team. This program allows students to learn and engage in real-world engineering and deisgn, mentored by industry professionals.
+CyberKnights Robotics is a FIRST Robotics Competition high school robotics team. This program allows students to learn and engage in real-world engineering and design, mentored by industry professionals.
 
 Since the FRC 2022 season, our team has focused on developing a ROS ecosystem. If you are interested in looking at our pre-ROS code, you can checkout our FRC 2021 and earlier repositories.
 
