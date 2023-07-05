@@ -1,19 +1,6 @@
-## CyberKnights Robotics
-### FRC Team 195
+## CyberKnights Robotics has moved to GitLab as of the start of July 2023. You can find our new projects here: [https://gitlab.team195.com/cyberknights](https://gitlab.team195.com/cyberknights)
 
-
-### CyberKnights Robotics has moved to GitLab as of the start of July 2023. You can find our new projects here: [https://gitlab.team195.com/cyberknights](https://gitlab.team195.com/cyberknights)
-
-
-
-
-
-
-
-
-
-
-
+<br/><br/><br/><br/><br/><br/><br/>
 
 CyberKnights Robotics is a FIRST Robotics Competition high school robotics team. This program allows students to learn and engage in real-world engineering and deisgn, mentored by industry professionals.
 
