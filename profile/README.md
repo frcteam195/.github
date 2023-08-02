@@ -16,7 +16,7 @@ Since the FRC 2022 season, our team has focused on developing a ROS ecosystem. I
 - [2019 - Java (RoboRIO), Limelight 2 Vision](https://github.com/frcteam195/FRC2019)
 - [2022 - ROS/C++ (NVIDIA Jetson), C++ (RoboRIO), Limelight 2+ Vision](https://github.com/frcteam195/2022_ROS_Robot)
 - [2023 - ROS/C++/Python (NVIDIA Jetson), C++ (RoboRIO), Limelight 3 Vision](https://github.com/frcteam195/2023_FRC_Robot)
-- [2024 - ROS2/C++/Python (NVIDIA Jetson), C++ (RoboRIO), Limelight 3 Vision](https://github.com/frcteam195/2024_FRC_Robot)
+- [2024 - ROS2/C++/Python (NVIDIA Jetson), C++ (RoboRIO), Limelight 3 Vision](https://gitlab.team195.com/cyberknights/ros2/robots/2024_ros_robot)
 
 Our current goal is to make ROS accessible to all teams within 5 years. Currently, ROS ecosystems need significant software development capabilities. Our hopes are to simplify this so that a team can get up and running with a basic ROS ecosystem that controls their robot in under a day.
 </details>
